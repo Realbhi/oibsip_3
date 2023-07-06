@@ -1,0 +1,89 @@
+body{
+   background-color: rgb(212, 238, 238);
+}
+#container{
+    background-color: rgb(190, 228, 159);
+    height: 400px;
+    width: 456px;
+    margin: auto;
+    margin-top: 160px;
+    border: 2px solid rgb(220, 151, 113);
+}
+
+#btn{
+    margin: 10px auto;
+    width: 35%;
+}
+
+#convert{
+    margin: 10px auto;
+    background-color: rgb(130, 51, 183);
+    border: 1px solid rgb(214, 148, 181);
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    --webkit-user-select:none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+#reset{
+    margin: 10px auto;
+    background-color: rgb(130, 51, 183);
+    border: 1px solid rgb(214, 148, 181);
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #ececec;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    --webkit-user-select:none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+h1{
+    margin-top: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    padding: 30px;
+    text-align: center;
+}
+input{
+    display: block;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 10px;
+    font-size: 1em;
+     color: blueviolet;
+     margin: 20px auto;
+}
+
+::-webkit-input-placeholder{
+    color: #ccc;
+}
+
+::-ms-input-placeholder{
+    color: #ccc;
+}
